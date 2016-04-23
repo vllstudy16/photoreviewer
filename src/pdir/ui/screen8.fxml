@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="10.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pdir.screens.Screen8">
+    <children>
+        <fx:include fx:id="progHB" source="progressbar.fxml" />
+      <VBox fx:id="labelsVbox" maxWidth="500.0" minWidth="300.0">
+         <children>
+            <Label maxWidth="500.0" minWidth="200.0" text="1. Select the Save button, this will delete the photos you selected for removal from the SD card and save your responses." wrapText="true" VBox.vgrow="NEVER">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label contentDisplay="CENTER" maxWidth="500.0" minWidth="300.0" text="2. Once saved you can close the photo review software. Just click on the close/cross button." wrapText="true">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+         <children>
+      
+              <fx:include fx:id="nextButton" source="nextbutton.fxml" />
+         </children>
+      </HBox>
+    </children>
+</VBox>

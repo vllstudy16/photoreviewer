@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="mainPane" alignment="CENTER" minHeight="400.0" minWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pdir.screens.Screen1">
+    <children>
+        <Button fx:id="mSelectFolderButton" alignment="CENTER" contentDisplay="CENTER" minHeight="100.0" minWidth="200.0" mnemonicParsing="false" onAction="#loadPhotos" text="Load Photos" textAlignment="CENTER" textOverrun="CENTER_WORD_ELLIPSIS">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+    </children>
+</VBox>

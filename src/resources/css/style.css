@@ -1,0 +1,19 @@
+.progLabel {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px;
+}
+
+.question-label {
+    -fx-font-weight: bold;
+    -fx-wrap-text: true;
+}
+
+.question-vbox .check-box {
+    -fx-padding: 0.5em;
+}
+
+.border {
+    -fx-border-color: black;
+    -fx-border-width: 5px;
+}

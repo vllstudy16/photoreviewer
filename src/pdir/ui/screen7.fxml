@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="TOP_CENTER" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pdir.screens.Screen7">
+    <children>
+        <fx:include fx:id="progHB" source="progressbar.fxml" />
+      <VBox fx:id="questionsVBox" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" />
+
+              <fx:include fx:id="nextButton" source="nextbutton.fxml" />
+    </children>
+</VBox>

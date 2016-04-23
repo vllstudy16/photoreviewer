@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="screen3Vbox" alignment="CENTER" spacing="10.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pdir.screens.Screen3">
+    <children>
+        <fx:include fx:id="progHB" source="progressbar.fxml" />
+      <HBox fx:id="questionHbox" alignment="CENTER" />
+        <fx:include fx:id="nextButton" source="nextbutton.fxml" />
+    </children>
+</VBox>

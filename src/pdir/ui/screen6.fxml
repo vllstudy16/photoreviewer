@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="TOP_CENTER" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pdir.screens.Screen6">
+    <children>
+        <fx:include fx:id="progHB" source="progressbar.fxml" />
+        <Label alignment="CENTER" contentDisplay="CENTER" minWidth="600.0" text="Who would you not feel comfortable sharing this image with?" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Label>
+      <VBox fx:id="imageVbox" alignment="TOP_CENTER" />
+        <fx:include fx:id="nextButton" source="nextbutton.fxml" />
+    </children>
+</VBox>
